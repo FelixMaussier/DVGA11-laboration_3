@@ -1,0 +1,12 @@
+.form-select {
+    border-radius: 0;
+}
+
+.accordion-button {
+    background-color: yellow !important;
+    width: 80%;
+}
+
+.btn {
+    width: 20%;
+}
