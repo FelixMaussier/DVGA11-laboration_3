@@ -118,7 +118,8 @@ function showSelectedCategory() {
             //om contents inte finns ska den ta bord alla ingridienser(accordion-button)
             let hasContent = item.contents;
             if (hasContent === undefined) {
-                $('accordion-button').remove();
+                console.log('im gone');
+                $('.accordion-button').remove();
             }
 
             //funktion som skapr but_knapp
